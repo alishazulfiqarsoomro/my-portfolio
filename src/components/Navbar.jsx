@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 // Apni chhoti passport-size ya round avatar image ka path yahan dein
-import NavbarProfilePic from "../assets/profile.jpg";
+import NavbarProfilePic from "../assets/profile.jpeg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

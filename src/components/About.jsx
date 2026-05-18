@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaGraduationCap, FaCertificate, FaDownload, FaEye, FaTimes } from 'react-icons/fa';
-import MyProfilePic from '../assets/profile.jpg'; 
+import MyProfilePic from '../assets/profile.jpeg'; 
 import MyResume from '../assets/Alisha_Zulfiqar_Resume.pdf'; 
 
 // Certificates ki images

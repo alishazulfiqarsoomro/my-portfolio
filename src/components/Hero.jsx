@@ -1,6 +1,6 @@
 import { HiArrowRight } from 'react-icons/hi';
 // Apni high-quality professional pic ka path yahan dein
-import HeroProfilePic from '../assets/profile.jpg'; 
+import HeroProfilePic from '../assets/profile.jpeg'; 
 
 const Hero = () => {
   return (
