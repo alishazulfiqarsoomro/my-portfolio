@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 // Apni chhoti passport-size ya round avatar image ka path yahan dein
@@ -7,12 +8,14 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // Gallery section configuration links array mein properly position kar di gayi hai
   const links = [
     { id: 1, name: "home", url: "#home" },
     { id: 2, name: "about", url: "#about" },
     { id: 3, name: "skills", url: "#skills" },
     { id: 4, name: "projects", url: "#projects" },
-    { id: 5, name: "contact", url: "#contact" },
+    { id: 5, name: "gallery", url: "#gallery" }, // <-- Added the Gallery anchor route here
+    { id: 6, name: "contact", url: "#contact" },
   ];
 
   // 1. Navbar background opacity change on scroll
